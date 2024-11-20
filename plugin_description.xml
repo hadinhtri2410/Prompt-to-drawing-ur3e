@@ -1,0 +1,10 @@
+<library path="csv_controller">
+    <class name="csv_controller/CSVController"
+        type="csv_controller::CSVController"
+        base_class_type="controller_interface::ControllerInterface">
+        <description>
+            Blast csv joints data to the robotic arm, basically mimicing a forward position controller.
+        </description>
+    </class>
+    <!-- TODO: insert your own controller here with another <class> tag -->
+</library>

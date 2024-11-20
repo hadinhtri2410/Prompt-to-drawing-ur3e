@@ -1,0 +1,6 @@
+# ignore the csv_files directory
+csv_files/*
+
+# except the following files
+!csv_files/ldihel.csv
+!csv_files/ldihel_bonus.csv
