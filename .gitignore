@@ -3,4 +3,4 @@ csv_files/*
 
 # except the following files
 !csv_files/ldihel.csv
-!csv_files/ldihel_bonus.csv
+!csv_files/bonus/ldihel_bonus.csv
