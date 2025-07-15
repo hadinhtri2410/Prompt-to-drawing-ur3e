@@ -72,7 +72,7 @@ namespace csv_controller
         {
             declare_parameters();
         }
-        catch (const std::exception & e)
+        catch (const std::exception &e)
         {
             fprintf(stderr, "Exception thrown during init stage with message: %s \n", e.what());
             return controller_interface::CallbackReturn::ERROR;
@@ -89,7 +89,8 @@ namespace csv_controller
         // read the CSV file and store into an array
         std::string filename = ament_index_cpp::get_package_share_directory("csv_controller") +
                                std::string("/csv_files/") + csv_name + ".csv";
-        if (!readCSVFile(filename)) {
+        if (!readCSVFile(filename))
+        {
             RCLCPP_ERROR(get_node()->get_logger(), "Error reading CSV file");
             return controller_interface::CallbackReturn::ERROR;
         }
@@ -115,11 +116,10 @@ namespace csv_controller
 
         // turn off LED
         auto request = std::make_shared<ur_msgs::srv::SetIO::Request>();
-        request->fun = 1;                           // Set the function (1 to set digital output)
-        request->pin = 16;                          // Set the pin number
+        request->fun = 1;     // Set the function (1 to set digital output)
+        request->pin = 16;    // Set the pin number
         request->state = 0.0; // Set the state (0 for OFF)
         io_client->async_send_request(request);
-
 
         RCLCPP_INFO(get_node()->get_logger(), "on_activate() successful");
         return controller_interface::CallbackReturn::SUCCESS;
@@ -145,37 +145,42 @@ namespace csv_controller
             startTime = time.seconds();
         }
 
-        double t = time.seconds() - startTime;
-        if (t < waitTime)
-        {
-            return controller_interface::return_type::OK;
-        }
-
         // ensure that the joints are "close enough" to the start of the next position
         double distance = distanceToCSVPosition(index);
-        if (distance < 0.1)
+        if (distance < 0.2)
         {
-            command_interfaces_[0].set_value(csvData[index].shoulderPan);
-            command_interfaces_[1].set_value(csvData[index].shoulderLift);
-            command_interfaces_[2].set_value(csvData[index].elbow);
-            command_interfaces_[3].set_value(csvData[index].wrist1);
-            command_interfaces_[4].set_value(csvData[index].wrist2);
-            command_interfaces_[5].set_value(csvData[index].wrist3);
+            double t = time.seconds() - startTime;
+            if (t < waitTime)
+            {
+                RCLCPP_INFO(get_node()->get_logger(), "\033[31m time left: %1.2f \033[0m", waitTime - t);
+                return controller_interface::return_type::OK;
+            }
+
+            if (!command_interfaces_[0].set_value(csvData[index].shoulderPan) ||
+                !command_interfaces_[1].set_value(csvData[index].shoulderLift) ||
+                !command_interfaces_[2].set_value(csvData[index].elbow) ||
+                !command_interfaces_[3].set_value(csvData[index].wrist1) ||
+                !command_interfaces_[4].set_value(csvData[index].wrist2) ||
+                !command_interfaces_[5].set_value(csvData[index].wrist3))
+            {
+                RCLCPP_ERROR(get_node()->get_logger(), "Failed to set joint command values");
+                return controller_interface::return_type::ERROR;
+            }
 
             // if the LED value has changed this index, send a request to the IO service
-            if (index == csvData.size()-1)
+            if (index == csvData.size() - 1)
             {
                 auto request = std::make_shared<ur_msgs::srv::SetIO::Request>();
-                request->fun = 1;                           // Set the function (1 to set digital output)
-                request->pin = 16;                          // Set the pin number
+                request->fun = 1;     // Set the function (1 to set digital output)
+                request->pin = 16;    // Set the pin number
                 request->state = 0.0; // Set the state (0 for OFF)
                 io_client->async_send_request(request);
             }
             else if (index == 0 || csvData[index].led != csvData[index - 1].led)
             {
                 auto request = std::make_shared<ur_msgs::srv::SetIO::Request>();
-                request->fun = 1;                           // Set the function (1 to set digital output)
-                request->pin = 16;                          // Set the pin number
+                request->fun = 1;  // Set the function (1 to set digital output)
+                request->pin = 16; // Set the pin number
                 request->state = (float)csvData[index].led;
                 io_client->async_send_request(request);
             }
@@ -185,6 +190,10 @@ namespace csv_controller
         }
         else
         {
+            if (haveSentMoveJCommand)
+            {
+                return controller_interface::return_type::ERROR;
+            }
             // the distance between current joint position and the requested joint position is too great
             // we will deactivate the controller and wait for the robot to reach the desired position
             RCLCPP_INFO(get_node()->get_logger(), "distance %f too great, remaining at index %li", distance, index);
@@ -207,10 +216,14 @@ namespace csv_controller
 
             // turn off LED
             auto request = std::make_shared<ur_msgs::srv::SetIO::Request>();
-            request->fun = 1;                           // Set the function (1 to set digital output)
-            request->pin = 16;                          // Set the pin number
+            request->fun = 1;     // Set the function (1 to set digital output)
+            request->pin = 16;    // Set the pin number
             request->state = 0.0; // Set the state (0 for OFF)
             io_client->async_send_request(request);
+
+            haveSentMoveJCommand = true;
+
+            return controller_interface::return_type::ERROR;
         }
 
         return controller_interface::return_type::OK;
@@ -220,7 +233,8 @@ namespace csv_controller
     {
         std::ifstream file(filename);
 
-        if (!file) {
+        if (!file)
+        {
             RCLCPP_ERROR(get_node()->get_logger(), "Error opening file %s", filename.c_str());
             return false;
         }
@@ -259,10 +273,12 @@ namespace csv_controller
             csvLine.wrist3 = std::stod(word);
 
             std::getline(s, word, ',');
-            try {
+            try
+            {
                 csvLine.led = std::stoul(word);
             }
-            catch (const std::exception & e) {
+            catch (const std::exception &e)
+            {
                 RCLCPP_ERROR(get_node()->get_logger(), "foobar %s", e.what());
                 csvLine.led = (unsigned long)std::stod(word);
             }
@@ -280,12 +296,27 @@ namespace csv_controller
         Eigen::Matrix<double, 6, 1> currentPos;
         Eigen::Matrix<double, 6, 1> startPos;
 
-        currentPos << state_interfaces_[0].get_value(),
-            state_interfaces_[1].get_value(),
-            state_interfaces_[2].get_value(),
-            state_interfaces_[3].get_value(),
-            state_interfaces_[4].get_value(),
-            state_interfaces_[5].get_value();
+        // Get optional values and provide defaults if not available
+        auto pos0 = state_interfaces_[0].get_optional();
+        auto pos1 = state_interfaces_[1].get_optional();
+        auto pos2 = state_interfaces_[2].get_optional();
+        auto pos3 = state_interfaces_[3].get_optional();
+        auto pos4 = state_interfaces_[4].get_optional();
+        auto pos5 = state_interfaces_[5].get_optional();
+
+        // Check if all values are available
+        if (!pos0 || !pos1 || !pos2 || !pos3 || !pos4 || !pos5)
+        {
+            RCLCPP_WARN(get_node()->get_logger(), "Some joint state values are not available");
+            return std::numeric_limits<double>::max(); // Return large distance to prevent progression
+        }
+
+        currentPos << pos0.value(),
+            pos1.value(),
+            pos2.value(),
+            pos3.value(),
+            pos4.value(),
+            pos5.value();
 
         startPos << csvData[index].shoulderPan,
             csvData[index].shoulderLift,
