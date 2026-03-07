@@ -1,0 +1,11 @@
+source;share/csv_controller/hook/cmake_prefix_path.ps1
+source;share/csv_controller/hook/cmake_prefix_path.dsv
+source;share/csv_controller/hook/cmake_prefix_path.sh
+source;share/csv_controller/hook/ld_library_path_lib.ps1
+source;share/csv_controller/hook/ld_library_path_lib.dsv
+source;share/csv_controller/hook/ld_library_path_lib.sh
+source;share/csv_controller/local_setup.bash
+source;share/csv_controller/local_setup.dsv
+source;share/csv_controller/local_setup.ps1
+source;share/csv_controller/local_setup.sh
+source;share/csv_controller/local_setup.zsh

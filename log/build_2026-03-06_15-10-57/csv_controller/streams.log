@@ -1,0 +1,43 @@
+[0.013s] Invoking command in '/home/triha/csv_controller/build/csv_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/csv_controller/build/csv_controller -- -j12 -l12
+[0.066s] [ 50%] Built target csv_controller_parameters
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target csv_controller[0m
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o[0m
+[5.251s] [100%] [32m[1mLinking CXX shared library libcsv_controller.so[0m
+[5.663s] [100%] Built target csv_controller
+[5.674s] Invoked command in '/home/triha/csv_controller/build/csv_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/csv_controller/build/csv_controller -- -j12 -l12
+[5.683s] Invoking command in '/home/triha/csv_controller/build/csv_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/csv_controller/build/csv_controller
+[5.692s] -- Install configuration: ""
+[5.692s] -- Execute custom install script
+[5.692s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/include/csv_controller/csv_controller_parameters.hpp
+[5.701s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//plugin_description.xml
+[5.710s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//include/csv_controller/csv_controller.hpp
+[5.719s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//config/ur_controllers.yaml
+[5.729s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//launch/ur3e_csv.launch.py
+[5.738s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//csv_files/ldihel.csv
+[5.746s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//csv_files/ldihel_bonus.csv
+[5.755s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller//csv_files/plane.csv
+[5.764s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/library_path.sh
+[5.772s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/library_path.dsv
+[5.781s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/ament_index/resource_index/package_run_dependencies/csv_controller
+[5.789s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/ament_index/resource_index/parent_prefix_path/csv_controller
+[5.798s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/ament_prefix_path.sh
+[5.806s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/ament_prefix_path.dsv
+[5.815s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/path.sh
+[5.824s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/environment/path.dsv
+[5.833s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/local_setup.bash
+[5.843s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/local_setup.sh
+[5.852s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/local_setup.zsh
+[5.860s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/local_setup.dsv
+[5.869s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/package.dsv
+[5.878s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/ament_index/resource_index/packages/csv_controller
+[5.887s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/csv_controller
+[5.896s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.904s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/ament_cmake_export_targets-extras.cmake
+[5.913s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/csv_controllerConfig.cmake
+[5.921s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/csv_controllerConfig-version.cmake
+[5.930s] -- Symlinking: /home/triha/csv_controller/install/csv_controller/share/csv_controller/package.xml
+[5.939s] -- Installing: /home/triha/csv_controller/install/csv_controller/lib/libcsv_controller.so
+[5.941s] -- Set runtime path of "/home/triha/csv_controller/install/csv_controller/lib/libcsv_controller.so" to ""
+[5.942s] -- Installing: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/export_csv_controllerExport.cmake
+[5.942s] -- Installing: /home/triha/csv_controller/install/csv_controller/share/csv_controller/cmake/export_csv_controllerExport-noconfig.cmake
+[5.943s] Invoked command in '/home/triha/csv_controller/build/csv_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/csv_controller/build/csv_controller

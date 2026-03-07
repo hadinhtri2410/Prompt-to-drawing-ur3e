@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="wall" params="parent prefix *origin length thickness height material">
+
+
+
+    <joint name="${prefix}joint" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}" />
+      <child link="${prefix}base" />
+    </joint>
+
+    <link name="${prefix}base">
+      <visual>
+        <origin rpy="0 0 0" xyz="${length/2} ${thickness/2} ${height/2}" />
+        <geometry>
+          <box size="${length} ${thickness} ${height}" />
+        </geometry>
+        <material name="${material}" />
+      </visual>
+
+      <collision>
+        <origin rpy="0 0 0" xyz="${length/2} ${thickness/2} ${height/2}" />
+        <geometry>
+          <box size="${length} ${thickness} ${height}" />
+        </geometry>
+      </collision>
+    </link>
+
+  </xacro:macro>
+</robot>

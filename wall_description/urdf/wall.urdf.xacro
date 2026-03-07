@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="wall">
+
+  <!-- Use this if parameters are set from the launch file, otherwise delete -->
+  <xacro:arg name="prefix" default="" />
+
+  <xacro:include filename="$(find wall_description)/urdf/inertials.xacro" />
+  <xacro:include filename="$(find wall_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find wall_description)/urdf/wall_macro.xacro"/>
+
+  <!-- create link fixed to the "world" -->
+  <link name="world" />
+
+  <!-- Load robot's macro with parameters -->
+  <xacro:wall prefix="$(arg prefix)" parent="world" length="5" thickness="0.25" height="3" material="white">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:wall>
+
+
+</robot>

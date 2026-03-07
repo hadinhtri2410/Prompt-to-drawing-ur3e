@@ -1,0 +1,59 @@
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type csv_controller::CSVController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:159:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](0))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::shoulderPan)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  159 |             if (![01;31m[Kcommand_interfaces_[0].set_value(csvData[index].shoulderPan)[m[K ||
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:159:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:160:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](1))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::shoulderLift)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  160 |                 ![01;31m[Kcommand_interfaces_[1].set_value(csvData[index].shoulderLift)[m[K ||
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:160:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:161:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](2))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::elbow)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  161 |                 ![01;31m[Kcommand_interfaces_[2].set_value(csvData[index].elbow)[m[K ||
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:161:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:162:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](3))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::wrist1)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  162 |                 ![01;31m[Kcommand_interfaces_[3].set_value(csvData[index].wrist1)[m[K ||
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:162:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:163:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](4))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::wrist2)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  163 |                 ![01;31m[Kcommand_interfaces_[4].set_value(csvData[index].wrist2)[m[K ||
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:163:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:164:50:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((csv_controller::CSVController*)this)->csv_controller::CSVController::<anonymous>.controller_interface::ControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](5))->hardware_interface::LoanedCommandInterface::set_value(((csv_controller::CSVController*)this)->csv_controller::CSVController::csvData.std::vector<csv_controller::CSVLine>::operator[](((csv_controller::CSVController*)this)->csv_controller::CSVController::index).csv_controller::CSVLine::wrist3)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  164 |                 ![01;31m[Kcommand_interfaces_[5].set_value(csvData[index].wrist3)[m[K)
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kvoid[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:164:50:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:[m[K In member function ‘[01m[Kdouble csv_controller::CSVController::distanceToCSVPosition(size_t)[m[K’:
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:300:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  300 |         auto pos0 = state_interfaces_[0].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:301:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  301 |         auto pos1 = state_interfaces_[1].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:302:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  302 |         auto pos2 = state_interfaces_[2].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:303:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  303 |         auto pos3 = state_interfaces_[3].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:304:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  304 |         auto pos4 = state_interfaces_[4].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/triha/csv_controller/src/csv_controller.cpp:305:42:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+  305 |         auto pos5 = state_interfaces_[5].[01;31m[Kget_optional[m[K();
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/csv_controller.dir/build.make:76: CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/csv_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

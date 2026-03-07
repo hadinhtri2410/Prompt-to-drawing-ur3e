@@ -156,16 +156,12 @@ namespace csv_controller
                 return controller_interface::return_type::OK;
             }
 
-            if (!command_interfaces_[0].set_value(csvData[index].shoulderPan) ||
-                !command_interfaces_[1].set_value(csvData[index].shoulderLift) ||
-                !command_interfaces_[2].set_value(csvData[index].elbow) ||
-                !command_interfaces_[3].set_value(csvData[index].wrist1) ||
-                !command_interfaces_[4].set_value(csvData[index].wrist2) ||
-                !command_interfaces_[5].set_value(csvData[index].wrist3))
-            {
-                RCLCPP_ERROR(get_node()->get_logger(), "Failed to set joint command values");
-                return controller_interface::return_type::ERROR;
-            }
+            command_interfaces_[0].set_value(csvData[index].shoulderPan);
+            command_interfaces_[1].set_value(csvData[index].shoulderLift);
+            command_interfaces_[2].set_value(csvData[index].elbow);
+            command_interfaces_[3].set_value(csvData[index].wrist1);
+            command_interfaces_[4].set_value(csvData[index].wrist2);
+            command_interfaces_[5].set_value(csvData[index].wrist3);
 
             // if the LED value has changed this index, send a request to the IO service
             if (index == csvData.size() - 1)
@@ -296,27 +292,12 @@ namespace csv_controller
         Eigen::Matrix<double, 6, 1> currentPos;
         Eigen::Matrix<double, 6, 1> startPos;
 
-        // Get optional values and provide defaults if not available
-        auto pos0 = state_interfaces_[0].get_optional();
-        auto pos1 = state_interfaces_[1].get_optional();
-        auto pos2 = state_interfaces_[2].get_optional();
-        auto pos3 = state_interfaces_[3].get_optional();
-        auto pos4 = state_interfaces_[4].get_optional();
-        auto pos5 = state_interfaces_[5].get_optional();
-
-        // Check if all values are available
-        if (!pos0 || !pos1 || !pos2 || !pos3 || !pos4 || !pos5)
-        {
-            RCLCPP_WARN(get_node()->get_logger(), "Some joint state values are not available");
-            return std::numeric_limits<double>::max(); // Return large distance to prevent progression
-        }
-
-        currentPos << pos0.value(),
-            pos1.value(),
-            pos2.value(),
-            pos3.value(),
-            pos4.value(),
-            pos5.value();
+        currentPos << state_interfaces_[0].get_value(),
+            state_interfaces_[1].get_value(),
+            state_interfaces_[2].get_value(),
+            state_interfaces_[3].get_value(),
+            state_interfaces_[4].get_value(),
+            state_interfaces_[5].get_value();
 
         startPos << csvData[index].shoulderPan,
             csvData[index].shoulderLift,

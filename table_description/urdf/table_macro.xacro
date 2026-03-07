@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="table" params="parent prefix *origin length width height thickness leg_radius top_material leg_material">
+
+    <!-- calculated properties -->
+    <xacro:property name="leg_length" value="${height - thickness}" />
+
+    <joint name="${prefix}base_joint" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}" />
+      <child link="${prefix}base_link" />
+    </joint>
+
+    <link name="${prefix}base_link"/>
+
+    <joint name="${prefix}top_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 ${height}" />
+      <parent link="${prefix}base_link" />
+      <child link="${prefix}top" />
+    </joint>
+
+    <link name="${prefix}top">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 ${-thickness/2}" />
+        <geometry>
+          <box size="${length} ${width} ${thickness}" />
+        </geometry>
+        <material name="${top_material}" />
+      </visual>
+
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 ${-thickness/2}" />
+        <geometry>
+          <box size="${length} ${width} ${thickness}" />
+        </geometry>
+      </collision>
+
+    </link>
+
+    <!-- macro for creating leg -->
+    <xacro:macro name="leg" params="name">
+      <link name="${name}">
+        <visual>
+          <origin rpy="0 0 0" xyz="0 0 ${-leg_length/2}" />
+          <geometry>
+            <cylinder radius="${leg_radius}" length="${leg_length}" />
+          </geometry>
+          <material name="${leg_material}" />
+        </visual>
+        <collision>
+          <origin rpy="0 0 0" xyz="0 0 ${-leg_length/2}" />
+          <geometry>
+            <cylinder radius="${leg_radius}" length="${leg_length}" />
+          </geometry>
+        </collision>
+
+      </link>
+    </xacro:macro>
+
+    <!-- create four legs -->
+    <xacro:leg name="${prefix}leg1" />
+    <xacro:leg name="${prefix}leg2" />
+    <xacro:leg name="${prefix}leg3" />
+    <xacro:leg name="${prefix}leg4" />
+
+    <!-- create the joints -->
+    <joint name="${prefix}joint1" type="fixed">
+      <origin rpy="0 0 0" xyz="${(length/2 - leg_radius)} ${(width/2 - leg_radius)} ${-thickness}" />
+      <parent link="${prefix}top" />
+      <child link="${prefix}leg1" />
+    </joint>
+
+    <joint name="${prefix}joint2" type="fixed">
+      <origin rpy="0 0 0" xyz="${-(length/2 - leg_radius)} ${(width/2 - leg_radius)} ${-thickness}" />
+      <parent link="${prefix}top" />
+      <child link="${prefix}leg2" />
+    </joint>
+
+    <joint name="${prefix}joint3" type="fixed">
+      <origin rpy="0 0 0" xyz="${-(length/2 - leg_radius)} ${-(width/2 - leg_radius)} ${-thickness}" />
+      <parent link="${prefix}top" />
+      <child link="${prefix}leg3" />
+    </joint>
+
+    <joint name="${prefix}joint4" type="fixed">
+      <origin rpy="0 0 0" xyz="${(length/2 - leg_radius)} ${-(width/2 - leg_radius)} ${-thickness}" />
+      <parent link="${prefix}top" />
+      <child link="${prefix}leg4" />
+    </joint>
+
+  </xacro:macro>
+</robot>

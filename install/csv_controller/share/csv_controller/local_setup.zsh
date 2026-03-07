@@ -1,0 +1,1 @@
+/home/triha/csv_controller/build/csv_controller/ament_cmake_environment_hooks/local_setup.zsh
