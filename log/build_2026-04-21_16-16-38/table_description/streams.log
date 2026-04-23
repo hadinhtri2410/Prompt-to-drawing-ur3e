@@ -1,0 +1,32 @@
+[1.738s] Invoking command in '/home/triha/prompt_to_drawing/build/table_description': PYTHONPATH=/home/triha/prompt_to_drawing/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/table_description/build --no-deps symlink_data
+[2.042s] running develop
+[2.284s] running egg_info
+[2.284s] creating table_description.egg-info
+[2.284s] writing table_description.egg-info/PKG-INFO
+[2.285s] writing dependency_links to table_description.egg-info/dependency_links.txt
+[2.285s] writing entry points to table_description.egg-info/entry_points.txt
+[2.285s] writing requirements to table_description.egg-info/requires.txt
+[2.285s] writing top-level names to table_description.egg-info/top_level.txt
+[2.285s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[2.288s] reading manifest file 'table_description.egg-info/SOURCES.txt'
+[2.289s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[2.291s] running build_ext
+[2.291s] Creating /home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages/table-description.egg-link (link to .)
+[2.292s] 
+[2.293s] Installed /home/triha/prompt_to_drawing/build/table_description
+[2.293s] running symlink_data
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/ament_index
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/ament_index/resource_index
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/ament_index/resource_index/packages
+[2.293s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/resource/table_description -> /home/triha/prompt_to_drawing/install/table_description/share/ament_index/resource_index/packages
+[2.293s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/package.xml -> /home/triha/prompt_to_drawing/install/table_description/share/table_description
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/table_description/launch
+[2.293s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/launch/view_table.launch.py -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/launch
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/table_description/rviz
+[2.293s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/rviz/table.rviz -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/rviz
+[2.293s] creating /home/triha/prompt_to_drawing/install/table_description/share/table_description/urdf
+[2.294s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/urdf/inertials.xacro -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/urdf
+[2.294s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/urdf/table_macro.xacro -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/urdf
+[2.294s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/urdf/materials.xacro -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/urdf
+[2.294s] symbolically linking /home/triha/prompt_to_drawing/build/table_description/urdf/table.urdf.xacro -> /home/triha/prompt_to_drawing/install/table_description/share/table_description/urdf
+[2.335s] Invoked command in '/home/triha/prompt_to_drawing/build/table_description' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/table_description/build --no-deps symlink_data

@@ -1,8 +1,8 @@
-# Install script for directory: /home/triha/csv_controller
+# Install script for directory: /home/triha/prompt_to_drawing/csv_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/triha/csv_controller/install/csv_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/triha/prompt_to_drawing/install/csv_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/triha/csv_controller/build/csv_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/triha/prompt_to_drawing/build/csv_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcsv_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/triha/csv_controller/build/csv_controller/libcsv_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/triha/prompt_to_drawing/build/csv_controller/libcsv_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcsv_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcsv_controller.so")
     file(RPATH_CHANGE
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake/export_csv_controllerExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake/export_csv_controllerExport.cmake"
-         "/home/triha/csv_controller/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport.cmake")
+         "/home/triha/prompt_to_drawing/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake/export_csv_controllerExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,9 +82,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake" TYPE FILE FILES "/home/triha/csv_controller/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake" TYPE FILE FILES "/home/triha/prompt_to_drawing/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake" TYPE FILE FILES "/home/triha/csv_controller/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/csv_controller/cmake" TYPE FILE FILES "/home/triha/prompt_to_drawing/build/csv_controller/CMakeFiles/Export/share/csv_controller/cmake/export_csv_controllerExport-noconfig.cmake")
   endif()
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/triha/csv_controller/build/csv_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/triha/prompt_to_drawing/build/csv_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

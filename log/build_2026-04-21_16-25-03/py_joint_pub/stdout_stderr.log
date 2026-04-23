@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/py_joint_pub/py_joint_pub.egg-info/PKG-INFO
+writing dependency_links to ../build/py_joint_pub/py_joint_pub.egg-info/dependency_links.txt
+writing entry points to ../build/py_joint_pub/py_joint_pub.egg-info/entry_points.txt
+writing requirements to ../build/py_joint_pub/py_joint_pub.egg-info/requires.txt
+writing top-level names to ../build/py_joint_pub/py_joint_pub.egg-info/top_level.txt
+reading manifest file '../build/py_joint_pub/py_joint_pub.egg-info/SOURCES.txt'
+writing manifest file '../build/py_joint_pub/py_joint_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_joint_pub/joint_publisher_csv.py -> /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub
+running install
+running install_lib
+copying /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub/joint_publisher_csv.py -> /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub
+byte-compiling /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub/joint_publisher_csv.py to joint_publisher_csv.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/py_joint_pub/py_joint_pub.egg-info to /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing csv script to /home/triha/prompt_to_drawing/install/py_joint_pub/lib/py_joint_pub
+writing list of installed files to '/home/triha/prompt_to_drawing/build/py_joint_pub/install.log'

@@ -29,7 +29,8 @@ controller_manager:
 
 csv_controller:
   ros__parameters:
-    csv_name: "ldihel.csv"
+    # by using the $(var csv_name) syntax, we are able to use the csv_name parameter from the launch file
+    csv_name: $(var csv_name)
 
 
 speed_scaling_state_broadcaster:

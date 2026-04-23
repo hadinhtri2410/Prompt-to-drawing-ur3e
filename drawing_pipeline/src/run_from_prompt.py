@@ -18,7 +18,9 @@ def parse_label(prompt):
         if label in prompt_lower:
             return label
     # try common aliases
-    aliases = {"smiley": "face_simple", "face": "face_simple", "bicycle": "bike"}
+    aliases = {"smiley": "face_simple", "face": "face_simple", "bicycle": "bike",
+               "rect": "square", "rectangle": "square", "box": "square",
+               "lissajous curve": "lissajous", "lissajous figure": "lissajous"}
     for alias, label in aliases.items():
         if alias in prompt_lower:
             return label
@@ -103,10 +105,10 @@ def main():
 
     csv_path, csv_name = run_pipeline(label, params)
 
-    print(f"\nLaunching robot...")
+    print(f"\nLaunching simulation...")
     subprocess.run([
-        "ros2", "launch", "csv_controller", "ur3e_csv.launch.py",
-        f"csv_name:={csv_name}"
+        "ros2", "launch", "msee22_description", "move_robot.launch.py",
+        f"csv_path:={csv_path}"
     ])
 
 

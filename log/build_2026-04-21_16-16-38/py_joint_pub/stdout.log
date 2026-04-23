@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating py_joint_pub.egg-info
+writing py_joint_pub.egg-info/PKG-INFO
+writing dependency_links to py_joint_pub.egg-info/dependency_links.txt
+writing entry points to py_joint_pub.egg-info/entry_points.txt
+writing requirements to py_joint_pub.egg-info/requires.txt
+writing top-level names to py_joint_pub.egg-info/top_level.txt
+writing manifest file 'py_joint_pub.egg-info/SOURCES.txt'
+reading manifest file 'py_joint_pub.egg-info/SOURCES.txt'
+writing manifest file 'py_joint_pub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py-joint-pub.egg-link (link to .)
+Installing csv script to /home/triha/prompt_to_drawing/install/py_joint_pub/lib/py_joint_pub
+
+Installed /home/triha/prompt_to_drawing/build/py_joint_pub
+running symlink_data
+creating /home/triha/prompt_to_drawing/install/py_joint_pub/share/ament_index
+creating /home/triha/prompt_to_drawing/install/py_joint_pub/share/ament_index/resource_index
+creating /home/triha/prompt_to_drawing/install/py_joint_pub/share/ament_index/resource_index/packages
+symbolically linking /home/triha/prompt_to_drawing/build/py_joint_pub/resource/py_joint_pub -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/ament_index/resource_index/packages
+symbolically linking /home/triha/prompt_to_drawing/build/py_joint_pub/package.xml -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+symbolically linking /home/triha/prompt_to_drawing/build/py_joint_pub/resource/ha149.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+symbolically linking /home/triha/prompt_to_drawing/build/py_joint_pub/resource/ldihel_bonus.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+symbolically linking /home/triha/prompt_to_drawing/build/py_joint_pub/resource/ldihel.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub

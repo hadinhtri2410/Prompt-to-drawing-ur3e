@@ -1,0 +1,32 @@
+[1.677s] Invoking command in '/home/triha/prompt_to_drawing/build/msee22_description': PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build --no-deps symlink_data
+[2.030s] running develop
+[2.330s] running egg_info
+[2.330s] creating msee22_description.egg-info
+[2.330s] writing msee22_description.egg-info/PKG-INFO
+[2.330s] writing dependency_links to msee22_description.egg-info/dependency_links.txt
+[2.330s] writing entry points to msee22_description.egg-info/entry_points.txt
+[2.330s] writing requirements to msee22_description.egg-info/requires.txt
+[2.331s] writing top-level names to msee22_description.egg-info/top_level.txt
+[2.331s] writing manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.333s] reading manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.333s] writing manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.335s] running build_ext
+[2.336s] Creating /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22-description.egg-link (link to .)
+[2.336s] 
+[2.336s] Installed /home/triha/prompt_to_drawing/build/msee22_description
+[2.336s] running symlink_data
+[2.336s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/ament_index
+[2.337s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/ament_index/resource_index
+[2.337s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/ament_index/resource_index/packages
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/resource/msee22_description -> /home/triha/prompt_to_drawing/install/msee22_description/share/ament_index/resource_index/packages
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/package.xml -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description
+[2.337s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/launch
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/launch/view_room.launch.py -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/launch
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/launch/move_robot.launch.py -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/launch
+[2.337s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/rviz
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/rviz/msee22.rviz -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/rviz
+[2.337s] creating /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/urdf/inertials.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/urdf/materials.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[2.337s] symbolically linking /home/triha/prompt_to_drawing/build/msee22_description/urdf/msee22.urdf.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[2.379s] Invoked command in '/home/triha/prompt_to_drawing/build/msee22_description' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build --no-deps symlink_data

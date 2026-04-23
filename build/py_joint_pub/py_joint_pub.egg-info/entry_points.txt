@@ -1,0 +1,3 @@
+[console_scripts]
+csv = py_joint_pub.joint_publisher_csv:main
+

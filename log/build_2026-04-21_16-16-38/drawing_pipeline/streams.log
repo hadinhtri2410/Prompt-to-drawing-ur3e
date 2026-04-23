@@ -1,0 +1,46 @@
+[0.046s] Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/drawing_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/drawing_pipeline
+[0.949s] -- The C compiler identification is GNU 11.4.0
+[0.949s] -- The CXX compiler identification is GNU 11.4.0
+[0.949s] -- Detecting C compiler ABI info
+[0.949s] -- Detecting C compiler ABI info - done
+[0.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.949s] -- Detecting C compile features - done
+[0.949s] -- Detecting CXX compiler ABI info
+[0.950s] -- Detecting CXX compiler ABI info - done
+[0.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.950s] -- Detecting CXX compile features
+[0.950s] -- Detecting CXX compile features - done
+[0.950s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.950s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.950s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.950s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.950s] -- Added test 'lint_cmake' to check CMake code style
+[0.950s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.950s] -- Added test 'xmllint' to check XML markup files
+[0.950s] -- Configuring done
+[0.950s] -- Generating done
+[0.950s] -- Build files have been written to: /home/triha/prompt_to_drawing/build/drawing_pipeline
+[1.241s] Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/drawing_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/drawing_pipeline
+[1.243s] Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/drawing_pipeline -- -j12 -l12
+[1.295s] Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/drawing_pipeline -- -j12 -l12
+[1.309s] Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/drawing_pipeline
+[1.319s] -- Install configuration: ""
+[1.320s] -- Execute custom install script
+[1.320s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/package_run_dependencies/drawing_pipeline
+[1.336s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/parent_prefix_path/drawing_pipeline
+[1.352s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/ament_prefix_path.sh
+[1.368s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/ament_prefix_path.dsv
+[1.383s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/path.sh
+[1.393s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/path.dsv
+[1.403s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.bash
+[1.413s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.sh
+[1.424s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.zsh
+[1.434s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.dsv
+[1.444s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.dsv
+[1.455s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/packages/drawing_pipeline
+[1.467s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/cmake/drawing_pipelineConfig.cmake
+[1.481s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/cmake/drawing_pipelineConfig-version.cmake
+[1.496s] -- Symlinking: /home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.xml
+[1.509s] Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/drawing_pipeline

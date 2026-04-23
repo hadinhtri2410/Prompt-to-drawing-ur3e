@@ -42,17 +42,17 @@ def generate_one(label, template_fn, params):
 
     thetaAll, min_det, success = solve_trajectory(x_m, y_m, pen)
     if not success:
-        return None, None, "ik_failed"
+        return None, None, "ik_failed", 0.0
 
     if min_det < MIN_DET_THRESHOLD:
-        return None, None, "singularity"
+        return None, None, "singularity", 0.0
 
     # check for elbow flips (large joint jumps between consecutive waypoints)
     max_jump = np.max(np.abs(np.diff(thetaAll, axis=1)))
     if max_jump > MAX_JOINT_JUMP:
-        return None, None, "elbow_flip"
+        return None, None, "elbow_flip", 0.0
 
-    return thetaAll, pen, "ok"
+    return thetaAll, pen, "ok", min_det
 
 
 def generate_dataset(out_dir, n_per_label=300, max_attempts_factor=3):
@@ -75,15 +75,15 @@ def generate_dataset(out_dir, n_per_label=300, max_attempts_factor=3):
         while count < n_per_label and attempts < max_attempts:
             attempts += 1
             params = random_params()
-            thetaAll, pen, status = generate_one(label, template_fn, params)
+            thetaAll, pen, status, min_det = generate_one(label, template_fn, params)
 
             if status != "ok":
                 continue
 
             name = f"{label}_{count:04d}"
 
-            # save metadata
-            meta = {"label": label, "ds_mm": DS_MM, **params}
+            # save metadata (include min_det so training can filter by quality)
+            meta = {"label": label, "ds_mm": DS_MM, "min_det": float(min_det), **params}
             with open(os.path.join(out_dir, f"{name}.json"), "w") as f:
                 json.dump(meta, f, indent=2)
 

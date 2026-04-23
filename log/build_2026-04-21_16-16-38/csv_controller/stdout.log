@@ -1,0 +1,75 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+-- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+-- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/triha/prompt_to_drawing/build/csv_controller
+[ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/triha/prompt_to_drawing/build/csv_controller/include/csv_controller/csv_controller_parameters.hpp /home/triha/prompt_to_drawing/csv_controller/src/csv_controller_parameters.yaml `[0m
+[ 50%] [34m[1mCreating deprecated header file /home/triha/prompt_to_drawing/build/csv_controller/include/csv_controller_parameters.hpp[0m
+[ 50%] Built target csv_controller_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcsv_controller.so[0m
+[100%] Built target csv_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/include/csv_controller/csv_controller_parameters.hpp
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//plugin_description.xml
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//include/csv_controller/csv_controller.hpp
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//config/ur_controllers.yaml
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//launch/ur3e_csv.launch.py
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//csv_files/ldihel.csv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller//csv_files/ldihel_bonus.csv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/library_path.sh
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/library_path.dsv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/ament_index/resource_index/package_run_dependencies/csv_controller
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/ament_index/resource_index/parent_prefix_path/csv_controller
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/path.sh
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/environment/path.dsv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/local_setup.bash
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/local_setup.sh
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/local_setup.zsh
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/local_setup.dsv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.dsv
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/ament_index/resource_index/packages/csv_controller
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/csv_controller
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/csv_controllerConfig.cmake
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/csv_controllerConfig-version.cmake
+-- Symlinking: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.xml
+-- Installing: /home/triha/prompt_to_drawing/install/csv_controller/lib/libcsv_controller.so
+-- Set runtime path of "/home/triha/prompt_to_drawing/install/csv_controller/lib/libcsv_controller.so" to ""
+-- Installing: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/export_csv_controllerExport.cmake
+-- Installing: /home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/cmake/export_csv_controllerExport-noconfig.cmake

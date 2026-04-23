@@ -1,1 +1,1 @@
-/home/triha/csv_controller/build/csv_controller/ament_cmake_environment_hooks/local_setup.bash
+/home/triha/prompt_to_drawing/build/csv_controller/ament_cmake_environment_hooks/local_setup.bash

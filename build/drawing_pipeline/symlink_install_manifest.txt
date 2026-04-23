@@ -1,0 +1,15 @@
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/package_run_dependencies/drawing_pipeline
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/parent_prefix_path/drawing_pipeline
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/ament_prefix_path.sh
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/ament_prefix_path.dsv
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/path.sh
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/environment/path.dsv
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.bash
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.sh
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.zsh
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/local_setup.dsv
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.dsv
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/ament_index/resource_index/packages/drawing_pipeline
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/cmake/drawing_pipelineConfig.cmake
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/cmake/drawing_pipelineConfig-version.cmake
+/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.xml

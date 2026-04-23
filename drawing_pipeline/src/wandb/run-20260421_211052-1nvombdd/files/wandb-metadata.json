@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.8.0-110-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2026-04-22T01:10:52.817896Z",
+  "program": "/home/triha/prompt_to_drawing/drawing_pipeline/src/train.py",
+  "codePath": "drawing_pipeline/src/train.py",
+  "codePathLocal": "train.py",
+  "git": {
+    "remote": "https://github.com/hadinhtri2410/Prompt-to-drawing-ur3e-.git",
+    "commit": "d073ac3d0086394782799df41d5d4e272a09d766"
+  },
+  "email": "ha149@purdue.edu",
+  "root": "/home/triha/prompt_to_drawing/drawing_pipeline/src",
+  "host": "triha-B460M-DS3H-AC-Y1",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "159068299264",
+      "used": "147389464576"
+    }
+  },
+  "memory": {
+    "total": "16696872960"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060",
+      "memoryTotal": "6442450944",
+      "cudaCores": 1920,
+      "architecture": "Turing",
+      "uuid": "GPU-ba236bb4-9f93-a841-3ef2-db7caf05fe66"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "kk9b7m12exibm058be11m76y0gde5xxa"
+}

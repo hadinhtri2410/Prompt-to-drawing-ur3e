@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating wall_description.egg-info
+writing wall_description.egg-info/PKG-INFO
+writing dependency_links to wall_description.egg-info/dependency_links.txt
+writing entry points to wall_description.egg-info/entry_points.txt
+writing requirements to wall_description.egg-info/requires.txt
+writing top-level names to wall_description.egg-info/top_level.txt
+writing manifest file 'wall_description.egg-info/SOURCES.txt'
+reading manifest file 'wall_description.egg-info/SOURCES.txt'
+writing manifest file 'wall_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/triha/prompt_to_drawing/install/wall_description/lib/python3.10/site-packages/wall-description.egg-link (link to .)
+
+Installed /home/triha/prompt_to_drawing/build/wall_description
+running symlink_data
+creating /home/triha/prompt_to_drawing/install/wall_description/share/ament_index
+creating /home/triha/prompt_to_drawing/install/wall_description/share/ament_index/resource_index
+creating /home/triha/prompt_to_drawing/install/wall_description/share/ament_index/resource_index/packages
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/resource/wall_description -> /home/triha/prompt_to_drawing/install/wall_description/share/ament_index/resource_index/packages
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/package.xml -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description
+creating /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/launch
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/launch/view_wall.launch.py -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/launch
+creating /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/rviz
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/rviz/wall.rviz -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/rviz
+creating /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/urdf
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/urdf/wall.urdf.xacro -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/urdf
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/urdf/inertials.xacro -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/urdf
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/urdf/materials.xacro -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/urdf
+symbolically linking /home/triha/prompt_to_drawing/build/wall_description/urdf/wall_macro.xacro -> /home/triha/prompt_to_drawing/install/wall_description/share/wall_description/urdf

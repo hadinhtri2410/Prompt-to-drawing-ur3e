@@ -1,0 +1,9 @@
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/uninstall.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/drawing_pipeline_uninstall.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/test.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/edit_cache.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/rebuild_cache.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/list_install_components.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/install.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/install/local.dir
+/home/triha/prompt_to_drawing/build/drawing_pipeline/CMakeFiles/install/strip.dir

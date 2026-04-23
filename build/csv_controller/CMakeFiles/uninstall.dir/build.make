@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triha/csv_controller
+CMAKE_SOURCE_DIR = /home/triha/prompt_to_drawing/csv_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triha/csv_controller/build/csv_controller
+CMAKE_BINARY_DIR = /home/triha/prompt_to_drawing/build/csv_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/triha/csv_controller/build/csv_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triha/csv_controller /home/triha/csv_controller /home/triha/csv_controller/build/csv_controller /home/triha/csv_controller/build/csv_controller /home/triha/csv_controller/build/csv_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/triha/prompt_to_drawing/build/csv_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triha/prompt_to_drawing/csv_controller /home/triha/prompt_to_drawing/csv_controller /home/triha/prompt_to_drawing/build/csv_controller /home/triha/prompt_to_drawing/build/csv_controller /home/triha/prompt_to_drawing/build/csv_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

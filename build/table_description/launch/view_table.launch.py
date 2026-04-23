@@ -1,0 +1,1 @@
+/home/triha/prompt_to_drawing/table_description/launch/view_table.launch.py

@@ -1,0 +1,38 @@
+[1.008s] Invoking command in '/home/triha/prompt_to_drawing/build/msee22_description': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build
+[1.291s] running develop
+[1.535s] Removing /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22-description.egg-link (link to .)
+[1.559s] Invoked command in '/home/triha/prompt_to_drawing/build/msee22_description' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build
+[1.560s] Invoking command in '/home/triha/prompt_to_drawing/msee22_description': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/msee22_description build --build-base /home/triha/prompt_to_drawing/build/msee22_description/build install --record /home/triha/prompt_to_drawing/build/msee22_description/install.log --single-version-externally-managed install_data --force
+[1.838s] running egg_info
+[1.839s] writing ../build/msee22_description/msee22_description.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../build/msee22_description/msee22_description.egg-info/dependency_links.txt
+[1.839s] writing entry points to ../build/msee22_description/msee22_description.egg-info/entry_points.txt
+[1.839s] writing requirements to ../build/msee22_description/msee22_description.egg-info/requires.txt
+[1.839s] writing top-level names to ../build/msee22_description/msee22_description.egg-info/top_level.txt
+[1.841s] reading manifest file '../build/msee22_description/msee22_description.egg-info/SOURCES.txt'
+[1.842s] writing manifest file '../build/msee22_description/msee22_description.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.842s] creating /home/triha/prompt_to_drawing/build/msee22_description/build
+[1.842s] creating /home/triha/prompt_to_drawing/build/msee22_description/build/lib
+[1.842s] creating /home/triha/prompt_to_drawing/build/msee22_description/build/lib/msee22_description
+[1.842s] copying msee22_description/__init__.py -> /home/triha/prompt_to_drawing/build/msee22_description/build/lib/msee22_description
+[1.842s] running install
+[1.842s] running install_lib
+[1.843s] creating /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22_description
+[1.843s] copying /home/triha/prompt_to_drawing/build/msee22_description/build/lib/msee22_description/__init__.py -> /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22_description
+[1.843s] byte-compiling /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22_description/__init__.py to __init__.cpython-310.pyc
+[1.844s] running install_data
+[1.844s] copying resource/msee22_description -> /home/triha/prompt_to_drawing/install/msee22_description/share/ament_index/resource_index/packages
+[1.844s] copying package.xml -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description
+[1.844s] copying launch/view_room.launch.py -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/launch
+[1.844s] copying launch/move_robot.launch.py -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/launch
+[1.844s] copying rviz/msee22.rviz -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/rviz
+[1.844s] copying urdf/inertials.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[1.844s] copying urdf/materials.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[1.844s] copying urdf/msee22.urdf.xacro -> /home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/urdf
+[1.844s] running install_egg_info
+[1.847s] Copying ../build/msee22_description/msee22_description.egg-info to /home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages/msee22_description-0.0.0-py3.10.egg-info
+[1.847s] running install_scripts
+[1.870s] writing list of installed files to '/home/triha/prompt_to_drawing/build/msee22_description/install.log'
+[1.900s] Invoked command in '/home/triha/prompt_to_drawing/msee22_description' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/msee22_description build --build-base /home/triha/prompt_to_drawing/build/msee22_description/build install --record /home/triha/prompt_to_drawing/build/msee22_description/install.log --single-version-externally-managed install_data --force

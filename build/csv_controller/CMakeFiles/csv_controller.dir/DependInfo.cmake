@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/triha/csv_controller/src/csv_controller.cpp" "CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o" "gcc" "CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o.d"
+  "/home/triha/prompt_to_drawing/csv_controller/src/csv_controller.cpp" "CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o" "gcc" "CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

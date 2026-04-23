@@ -1,0 +1,27 @@
+  [bike] keeping 60/300 samples (min_det >= 0.0060)
+  [circle] keeping 60/300 samples (min_det >= 0.0063)
+  [face_simple] keeping 60/300 samples (min_det >= 0.0063)
+  [lissajous] keeping 60/300 samples (min_det >= 0.0064)
+  [plane] keeping 60/300 samples (min_det >= 0.0059)
+  [square] keeping 60/300 samples (min_det >= 0.0063)
+  [bike] keeping 10/50 samples (min_det >= 0.0060)
+  [circle] keeping 10/50 samples (min_det >= 0.0063)
+  [face_simple] keeping 10/50 samples (min_det >= 0.0064)
+  [lissajous] keeping 10/50 samples (min_det >= 0.0065)
+  [plane] keeping 10/50 samples (min_det >= 0.0061)
+  [square] keeping 10/50 samples (min_det >= 0.0062)
+Epoch   1  train_loss=0.107669  val_loss=0.103971
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+Epoch  20  train_loss=0.054271  val_loss=0.058604
+Epoch  40  train_loss=0.053791  val_loss=0.059012
+Epoch  60  train_loss=0.053757  val_loss=0.059153
+Epoch  80  train_loss=0.053771  val_loss=0.059104
+Epoch 100  train_loss=0.053749  val_loss=0.059024
+Epoch 120  train_loss=0.053749  val_loss=0.059023
+Epoch 140  train_loss=0.053739  val_loss=0.059184
+Epoch 160  train_loss=0.053756  val_loss=0.059173
+Epoch 180  train_loss=0.053756  val_loss=0.059234
+Epoch 200  train_loss=0.053782  val_loss=0.059235
+
+Best val loss: 0.058460
+Saved model.pt

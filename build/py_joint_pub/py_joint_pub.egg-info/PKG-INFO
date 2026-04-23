@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-joint-pub
+Version: 0.0.0
+Summary: ros node to publish joint states to the ur3e robot
+Home-page: UNKNOWN
+Maintainer: Logan Dihel
+Maintainer-email: ldihel@purdue.edu
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

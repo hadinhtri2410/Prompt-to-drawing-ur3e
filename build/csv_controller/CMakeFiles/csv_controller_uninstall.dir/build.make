@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triha/csv_controller
+CMAKE_SOURCE_DIR = /home/triha/prompt_to_drawing/csv_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triha/csv_controller/build/csv_controller
+CMAKE_BINARY_DIR = /home/triha/prompt_to_drawing/build/csv_controller
 
 # Utility rule file for csv_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/csv_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/csv_controller_uninstall.dir/progress.make
 
 CMakeFiles/csv_controller_uninstall:
-	/usr/bin/cmake -P /home/triha/csv_controller/build/csv_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/triha/prompt_to_drawing/build/csv_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 csv_controller_uninstall: CMakeFiles/csv_controller_uninstall
 csv_controller_uninstall: CMakeFiles/csv_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/csv_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/csv_controller_uninstall.dir/clean
 
 CMakeFiles/csv_controller_uninstall.dir/depend:
-	cd /home/triha/csv_controller/build/csv_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triha/csv_controller /home/triha/csv_controller /home/triha/csv_controller/build/csv_controller /home/triha/csv_controller/build/csv_controller /home/triha/csv_controller/build/csv_controller/CMakeFiles/csv_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/triha/prompt_to_drawing/build/csv_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triha/prompt_to_drawing/csv_controller /home/triha/prompt_to_drawing/csv_controller /home/triha/prompt_to_drawing/build/csv_controller /home/triha/prompt_to_drawing/build/csv_controller /home/triha/prompt_to_drawing/build/csv_controller/CMakeFiles/csv_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/csv_controller_uninstall.dir/depend
 

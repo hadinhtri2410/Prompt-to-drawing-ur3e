@@ -154,8 +154,55 @@ def face_simple():
     return p
 
 
+def square(side_mm=80):
+    """Axis-aligned square centered at origin. Units: mm."""
+    p = DrawingProgram()
+    h = side_mm / 2
+    p.pen_up()
+    p.move_to(-h, -h)
+    p.pen_down()
+    p.line_to( h, -h)
+    p.line_to( h,  h)
+    p.line_to(-h,  h)
+    p.line_to(-h, -h)
+    p.pen_up()
+    return p
+
+
+def circle(radius_mm=45):
+    """Circle centered at origin. Units: mm."""
+    p = DrawingProgram()
+    p.pen_up()
+    p.move_to(radius_mm, 0)
+    p.pen_down()
+    p.circle(0, 0, radius_mm)
+    p.pen_up()
+    return p
+
+
+def lissajous(a=3, b=2, delta_deg=90, width_mm=80, height_mm=60, n_points=256):
+    """Lissajous figure: x = W*sin(a*t + delta), y = H*sin(b*t). Units: mm."""
+    import numpy as np
+    p = DrawingProgram()
+    delta = np.radians(delta_deg)
+    t = np.linspace(0, 2 * np.pi, n_points, endpoint=False)
+    xs = (width_mm / 2) * np.sin(a * t + delta)
+    ys = (height_mm / 2) * np.sin(b * t)
+    p.pen_up()
+    p.move_to(float(xs[0]), float(ys[0]))
+    p.pen_down()
+    for x, y in zip(xs[1:], ys[1:]):
+        p.line_to(float(x), float(y))
+    p.line_to(float(xs[0]), float(ys[0]))
+    p.pen_up()
+    return p
+
+
 TEMPLATES = {
     "plane": plane,
     "bike": bike,
     "face_simple": face_simple,
+    "square": square,
+    "circle": circle,
+    "lissajous": lissajous,
 }

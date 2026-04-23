@@ -1,0 +1,15 @@
+Epoch   1  train_loss=0.085550  val_loss=0.085122
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+Epoch  20  train_loss=0.083835  val_loss=0.085126
+Epoch  40  train_loss=0.083823  val_loss=0.085188
+Epoch  60  train_loss=0.083816  val_loss=0.085086
+Epoch  80  train_loss=0.083795  val_loss=0.085116
+Epoch 100  train_loss=0.083781  val_loss=0.085106
+Epoch 120  train_loss=0.083768  val_loss=0.085115
+Epoch 140  train_loss=0.083766  val_loss=0.085115
+Epoch 160  train_loss=0.083753  val_loss=0.085142
+Epoch 180  train_loss=0.083733  val_loss=0.085079
+Epoch 200  train_loss=0.083740  val_loss=0.085080
+
+Best val loss: 0.084930
+Saved model.pt

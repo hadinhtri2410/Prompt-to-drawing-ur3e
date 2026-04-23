@@ -1,0 +1,1 @@
+/home/triha/prompt_to_drawing/build/drawing_pipeline/ament_cmake_core/drawing_pipelineConfig.cmake

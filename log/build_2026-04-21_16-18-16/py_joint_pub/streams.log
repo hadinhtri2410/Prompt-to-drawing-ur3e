@@ -1,0 +1,39 @@
+[0.722s] Invoking command in '/home/triha/prompt_to_drawing/build/py_joint_pub': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/triha/prompt_to_drawing/build/py_joint_pub/build
+[1.004s] running develop
+[1.229s] Removing /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py-joint-pub.egg-link (link to .)
+[1.254s] Invoked command in '/home/triha/prompt_to_drawing/build/py_joint_pub' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/triha/prompt_to_drawing/build/py_joint_pub/build
+[1.255s] Invoking command in '/home/triha/prompt_to_drawing/py_joint_pub': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_joint_pub build --build-base /home/triha/prompt_to_drawing/build/py_joint_pub/build install --record /home/triha/prompt_to_drawing/build/py_joint_pub/install.log --single-version-externally-managed install_data --force
+[1.522s] running egg_info
+[1.523s] writing ../build/py_joint_pub/py_joint_pub.egg-info/PKG-INFO
+[1.523s] writing dependency_links to ../build/py_joint_pub/py_joint_pub.egg-info/dependency_links.txt
+[1.523s] writing entry points to ../build/py_joint_pub/py_joint_pub.egg-info/entry_points.txt
+[1.523s] writing requirements to ../build/py_joint_pub/py_joint_pub.egg-info/requires.txt
+[1.523s] writing top-level names to ../build/py_joint_pub/py_joint_pub.egg-info/top_level.txt
+[1.525s] reading manifest file '../build/py_joint_pub/py_joint_pub.egg-info/SOURCES.txt'
+[1.526s] writing manifest file '../build/py_joint_pub/py_joint_pub.egg-info/SOURCES.txt'
+[1.526s] running build
+[1.526s] running build_py
+[1.526s] creating /home/triha/prompt_to_drawing/build/py_joint_pub/build
+[1.526s] creating /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib
+[1.526s] creating /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub
+[1.526s] copying py_joint_pub/joint_publisher_csv.py -> /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub
+[1.526s] copying py_joint_pub/__init__.py -> /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub
+[1.526s] running install
+[1.526s] running install_lib
+[1.527s] creating /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub
+[1.527s] copying /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub/joint_publisher_csv.py -> /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub
+[1.527s] copying /home/triha/prompt_to_drawing/build/py_joint_pub/build/lib/py_joint_pub/__init__.py -> /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub
+[1.527s] byte-compiling /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub/joint_publisher_csv.py to joint_publisher_csv.cpython-310.pyc
+[1.528s] byte-compiling /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub/__init__.py to __init__.cpython-310.pyc
+[1.528s] running install_data
+[1.528s] copying resource/py_joint_pub -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/ament_index/resource_index/packages
+[1.528s] copying package.xml -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+[1.529s] copying resource/ha149.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+[1.529s] copying resource/ldihel_bonus.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+[1.530s] copying resource/ldihel.csv -> /home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub
+[1.530s] running install_egg_info
+[1.532s] Copying ../build/py_joint_pub/py_joint_pub.egg-info to /home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages/py_joint_pub-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.550s] Installing csv script to /home/triha/prompt_to_drawing/install/py_joint_pub/lib/py_joint_pub
+[1.551s] writing list of installed files to '/home/triha/prompt_to_drawing/build/py_joint_pub/install.log'
+[1.573s] Invoked command in '/home/triha/prompt_to_drawing/py_joint_pub' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_joint_pub build --build-base /home/triha/prompt_to_drawing/build/py_joint_pub/build install --record /home/triha/prompt_to_drawing/build/py_joint_pub/install.log --single-version-externally-managed install_data --force

@@ -1,7 +1,7 @@
 CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o: \
- /home/triha/csv_controller/src/csv_controller.cpp \
+ /home/triha/prompt_to_drawing/csv_controller/src/csv_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/triha/csv_controller/include/csv_controller/csv_controller.hpp \
+ /home/triha/prompt_to_drawing/csv_controller/include/csv_controller/csv_controller.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -879,7 +879,7 @@ CMakeFiles/csv_controller.dir/src/csv_controller.cpp.o: \
  /opt/ros/humble/include/ur_msgs/ur_msgs/srv/detail/set_io__traits.hpp \
  /opt/ros/humble/include/ur_msgs/ur_msgs/srv/detail/set_io__type_support.hpp \
  /opt/ros/humble/include/ur_msgs/ur_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/triha/csv_controller/build/csv_controller/include/csv_controller/csv_controller_parameters.hpp \
+ /home/triha/prompt_to_drawing/build/csv_controller/include/csv_controller/csv_controller_parameters.hpp \
  /usr/include/fmt/core.h /usr/include/fmt/format.h \
  /usr/include/fmt/core.h /usr/include/fmt/ranges.h \
  /usr/include/fmt/format.h \

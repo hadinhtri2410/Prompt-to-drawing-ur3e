@@ -1,0 +1,504 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7845f60a5db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7845f60a5840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7845f60a5840>>, mixin_verb=('build',))
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/triha/prompt_to_drawing'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Description) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(csv_controller) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'csv_controller' with type 'ros.ament_cmake' and name 'csv_controller'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(drawing_pipeline) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'drawing_pipeline' with type 'ros.ament_cmake' and name 'drawing_pipeline'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(msee22_description) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'msee22_description' with type 'ros.ament_python' and name 'msee22_description'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(py_joint_pub) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'py_joint_pub' with type 'ros.ament_python' and name 'py_joint_pub'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(table_description) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'table_description' with type 'ros.ament_python' and name 'table_description'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(wall_description) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'wall_description' with type 'ros.ament_python' and name 'wall_description'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/wall_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/table_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/py_joint_pub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/msee22_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/drawing_pipeline' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.383s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triha/prompt_to_drawing/install/csv_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.385s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/triha/prompt_to_drawing/install/drawing_pipeline' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.385s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/triha/prompt_to_drawing/install/csv_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/triha/prompt_to_drawing/install
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 56 installed packages in /home/triha/ws_moveit2/install
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'csv_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'csv_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/csv_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/csv_controller', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/csv_controller', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drawing_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'drawing_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/drawing_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/drawing_pipeline', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/drawing_pipeline', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'msee22_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'msee22_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/msee22_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/msee22_description', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/msee22_description', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'py_joint_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'py_joint_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/py_joint_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/py_joint_pub', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/py_joint_pub', 'symlink_install': True, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'table_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/table_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/table_description', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/table_description', 'symlink_install': True, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/ur_description', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/Universal_Robots_ROS2_Description', 'symlink_install': True, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'wall_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'wall_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triha/prompt_to_drawing/build/wall_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triha/prompt_to_drawing/install/wall_description', 'merge_install': False, 'path': '/home/triha/prompt_to_drawing/wall_description', 'symlink_install': True, 'test_result_base': None}
+[0.454s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.455s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triha/prompt_to_drawing/csv_controller' with build type 'ament_cmake'
+[0.455s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triha/prompt_to_drawing/csv_controller'
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triha/prompt_to_drawing/drawing_pipeline' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triha/prompt_to_drawing/drawing_pipeline'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triha/prompt_to_drawing/msee22_description' with build type 'ament_python'
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('msee22_description', 'ament_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/ament_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/ament_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/ament_prefix_path.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triha/prompt_to_drawing/py_joint_pub' with build type 'ament_python'
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_joint_pub', 'ament_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/ament_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/ament_prefix_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/ament_prefix_path.sh'
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triha/prompt_to_drawing/table_description' with build type 'ament_python'
+[0.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'ament_prefix_path')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/ament_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/ament_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/ament_prefix_path.sh'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triha/prompt_to_drawing/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triha/prompt_to_drawing/Universal_Robots_ROS2_Description'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triha/prompt_to_drawing/wall_description' with build type 'ament_python'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_description', 'ament_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/ament_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/ament_prefix_path.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/ament_prefix_path.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/csv_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/csv_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/csv_controller
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/drawing_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/drawing_pipeline
+[0.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triha/prompt_to_drawing/msee22_description'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.096s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triha/prompt_to_drawing/py_joint_pub'
+[1.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triha/prompt_to_drawing/table_description'
+[1.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/ur_description
+[1.701s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triha/prompt_to_drawing/wall_description'
+[1.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/drawing_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/drawing_pipeline
+[1.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/drawing_pipeline -- -j12 -l12
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/drawing_pipeline -- -j12 -l12
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/drawing_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/drawing_pipeline
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drawing_pipeline)
+[1.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/drawing_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/drawing_pipeline
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline' for CMake module files
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline' for CMake config files
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('drawing_pipeline', 'cmake_prefix_path')
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.ps1'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.sh'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/bin'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/lib/pkgconfig/drawing_pipeline.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/lib/python3.10/site-packages'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/bin'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.sh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.bash'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.zsh'
+[1.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/drawing_pipeline/share/colcon-core/packages/drawing_pipeline)
+[1.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drawing_pipeline)
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline' for CMake module files
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline' for CMake config files
+[1.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('drawing_pipeline', 'cmake_prefix_path')
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.ps1'
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.dsv'
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/hook/cmake_prefix_path.sh'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/bin'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/lib/pkgconfig/drawing_pipeline.pc'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/lib/python3.10/site-packages'
+[1.994s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/drawing_pipeline/bin'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.sh'
+[1.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.bash'
+[1.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/drawing_pipeline/share/drawing_pipeline/package.zsh'
+[1.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/drawing_pipeline/share/colcon-core/packages/drawing_pipeline)
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/msee22_description': PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build --no-deps symlink_data
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/wall_description': PYTHONPATH=/home/triha/prompt_to_drawing/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/wall_description/build --no-deps symlink_data
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/py_joint_pub': PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/py_joint_pub/build --no-deps symlink_data
+[2.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/table_description': PYTHONPATH=/home/triha/prompt_to_drawing/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/table_description/build --no-deps symlink_data
+[2.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/csv_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/csv_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/csv_controller
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/csv_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/csv_controller -- -j12 -l12
+[2.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_joint_pub', 'pythonpath_develop')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/py_joint_pub/share/py_joint_pub/hook/pythonpath_develop.ps1'
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/py_joint_pub' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/py_joint_pub/build --no-deps symlink_data
+[2.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/build/py_joint_pub/share/py_joint_pub/hook/pythonpath_develop.dsv'
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/py_joint_pub/share/py_joint_pub/hook/pythonpath_develop.sh'
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub' for CMake module files
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub' for CMake config files
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub/lib'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub/bin'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub/lib/pkgconfig/py_joint_pub.pc'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub/lib/python3.10/site-packages'
+[2.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_joint_pub', 'pythonpath')
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/pythonpath.ps1'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/pythonpath.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/hook/pythonpath.sh'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/py_joint_pub/bin'
+[2.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_joint_pub)
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/package.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/package.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/package.sh'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/package.bash'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/py_joint_pub/share/py_joint_pub/package.zsh'
+[2.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/py_joint_pub/share/colcon-core/packages/py_joint_pub)
+[2.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_description', 'pythonpath_develop')
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/wall_description/share/wall_description/hook/pythonpath_develop.ps1'
+[2.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/wall_description' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/wall_description/build --no-deps symlink_data
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/build/wall_description/share/wall_description/hook/pythonpath_develop.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/wall_description/share/wall_description/hook/pythonpath_develop.sh'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description' for CMake module files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description' for CMake config files
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description/lib'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description/lib/pkgconfig/wall_description.pc'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description/lib/python3.10/site-packages'
+[2.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_description', 'pythonpath')
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/pythonpath.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/pythonpath.dsv'
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/hook/pythonpath.sh'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/wall_description/bin'
+[2.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_description)
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/package.ps1'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/package.dsv'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/package.sh'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/package.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/wall_description/share/wall_description/package.zsh'
+[2.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/wall_description/share/colcon-core/packages/wall_description)
+[2.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'pythonpath_develop')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/table_description/share/table_description/hook/pythonpath_develop.ps1'
+[2.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/table_description' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/table_description/build --no-deps symlink_data
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/build/table_description/share/table_description/hook/pythonpath_develop.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/table_description/share/table_description/hook/pythonpath_develop.sh'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description' for CMake module files
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description' for CMake config files
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description/lib'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description/lib/pkgconfig/table_description.pc'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description/lib/python3.10/site-packages'
+[2.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'pythonpath')
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/pythonpath.ps1'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/pythonpath.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/table_description/share/table_description/hook/pythonpath.sh'
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/table_description/bin'
+[2.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(table_description)
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/table_description/share/table_description/package.ps1'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/table_description/share/table_description/package.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/table_description/share/table_description/package.sh'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/table_description/share/table_description/package.bash'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/table_description/share/table_description/package.zsh'
+[2.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/table_description/share/colcon-core/packages/table_description)
+[2.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/triha/prompt_to_drawing/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triha/prompt_to_drawing/install/ur_description
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/ur_description -- -j12 -l12
+[2.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('msee22_description', 'pythonpath_develop')
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/msee22_description/share/msee22_description/hook/pythonpath_develop.ps1'
+[2.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/msee22_description' returned '0': PYTHONPATH=/home/triha/prompt_to_drawing/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/triha/prompt_to_drawing/build/msee22_description/build --no-deps symlink_data
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/build/msee22_description/share/msee22_description/hook/pythonpath_develop.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/build/msee22_description/share/msee22_description/hook/pythonpath_develop.sh'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description' for CMake module files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description' for CMake config files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description/lib'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description/bin'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description/lib/pkgconfig/msee22_description.pc'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description/lib/python3.10/site-packages'
+[2.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('msee22_description', 'pythonpath')
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/pythonpath.ps1'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/pythonpath.dsv'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/hook/pythonpath.sh'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/msee22_description/bin'
+[2.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msee22_description)
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/package.ps1'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/package.sh'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/package.bash'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/msee22_description/share/msee22_description/package.zsh'
+[2.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/msee22_description/share/colcon-core/packages/msee22_description)
+[2.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/ur_description -- -j12 -l12
+[2.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/ur_description
+[5.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description' for CMake module files
+[5.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/ur_description
+[5.146s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description' for CMake config files
+[5.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[5.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[5.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[5.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[5.148s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/bin'
+[5.148s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/lib/pkgconfig/ur_description.pc'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/lib/python3.10/site-packages'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/bin'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.ps1'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.dsv'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.sh'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.bash'
+[5.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.zsh'
+[5.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/ur_description/share/colcon-core/packages/ur_description)
+[5.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description' for CMake module files
+[5.154s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description' for CMake config files
+[5.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[5.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/bin'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/lib/pkgconfig/ur_description.pc'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/lib/python3.10/site-packages'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/ur_description/bin'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.ps1'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.sh'
+[5.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.bash'
+[5.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/ur_description/share/ur_description/package.zsh'
+[5.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/ur_description/share/colcon-core/packages/ur_description)
+[8.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/csv_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/triha/prompt_to_drawing/build/csv_controller -- -j12 -l12
+[8.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triha/prompt_to_drawing/build/csv_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/csv_controller
+[8.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csv_controller)
+[8.855s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller' for CMake module files
+[8.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triha/prompt_to_drawing/build/csv_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triha/prompt_to_drawing/install/wall_description:/home/triha/prompt_to_drawing/install/table_description:/home/triha/prompt_to_drawing/install/py_joint_pub:/home/triha/prompt_to_drawing/install/msee22_description:/home/triha/ws_moveit2/install/moveit_configs_utils:/home/triha/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/triha/prompt_to_drawing/build/csv_controller
+[8.856s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller' for CMake config files
+[8.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_controller', 'cmake_prefix_path')
+[8.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.ps1'
+[8.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.dsv'
+[8.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.sh'
+[8.857s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib'
+[8.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_controller', 'ld_library_path_lib')
+[8.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.ps1'
+[8.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.dsv'
+[8.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.sh'
+[8.859s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/bin'
+[8.859s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib/pkgconfig/csv_controller.pc'
+[8.859s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib/python3.10/site-packages'
+[8.859s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/bin'
+[8.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.ps1'
+[8.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.dsv'
+[8.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.sh'
+[8.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.bash'
+[8.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.zsh'
+[8.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/csv_controller/share/colcon-core/packages/csv_controller)
+[8.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csv_controller)
+[8.862s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller' for CMake module files
+[8.862s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller' for CMake config files
+[8.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_controller', 'cmake_prefix_path')
+[8.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.ps1'
+[8.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.dsv'
+[8.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/cmake_prefix_path.sh'
+[8.864s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib'
+[8.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_controller', 'ld_library_path_lib')
+[8.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.ps1'
+[8.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.dsv'
+[8.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/hook/ld_library_path_lib.sh'
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/bin'
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib/pkgconfig/csv_controller.pc'
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/lib/python3.10/site-packages'
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/triha/prompt_to_drawing/install/csv_controller/bin'
+[8.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.ps1'
+[8.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.dsv'
+[8.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.sh'
+[8.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.bash'
+[8.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/triha/prompt_to_drawing/install/csv_controller/share/csv_controller/package.zsh'
+[8.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triha/prompt_to_drawing/install/csv_controller/share/colcon-core/packages/csv_controller)
+[8.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.868s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.873s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.873s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.873s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.882s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triha/prompt_to_drawing/install/local_setup.ps1'
+[8.883s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triha/prompt_to_drawing/install/_local_setup_util_ps1.py'
+[8.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triha/prompt_to_drawing/install/setup.ps1'
+[8.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triha/prompt_to_drawing/install/local_setup.sh'
+[8.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triha/prompt_to_drawing/install/_local_setup_util_sh.py'
+[8.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triha/prompt_to_drawing/install/setup.sh'
+[8.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triha/prompt_to_drawing/install/local_setup.bash'
+[8.891s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triha/prompt_to_drawing/install/setup.bash'
+[8.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triha/prompt_to_drawing/install/local_setup.zsh'
+[8.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triha/prompt_to_drawing/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/triha/prompt_to_drawing/msee22_description/launch/view_room.launch.py
