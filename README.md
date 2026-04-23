@@ -6,7 +6,7 @@ A ROS2 pipeline that converts a natural-language prompt (e.g. `"draw a plane"`) 
 
 ## Code Authorship
 
-### Written by us (ha149 / triha)
+### Written by me (ha149 / triha)
 
 | File | Description |
 | --- | --- |
